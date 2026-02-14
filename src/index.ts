@@ -9,6 +9,14 @@ export class Index {
     //  this.container.innerHTML = 'Hello World';
   }
 
+
+  async getData() {
+    const response = await fetch('http://localhost:53632/api/user/getUser');
+    const data = await response.json();
+    console.log(data);
+  }
+
+
   public init() {
 
     console.log('in init init');
