@@ -10,16 +10,25 @@ export class Index {
   }
 
 
-  async getData() {
-    const response = await fetch('http://localhost:53632/api/user/getUser');
+async getData() {
+  try {
+    const url = `${import.meta.env.VITE_API_URL}user/getUser`;
+    const response = await fetch(url);
     const data = await response.json();
-    console.log(data);
+    const div = document.querySelector('#userDiv') as HTMLElement;
+    if (div) {
+      div.textContent = `Current User: ${data.Name}`;
+    }
+  } catch (error) {
+    console.error('Failed to load user:', error);
   }
-
+}
 
   public init() {
 
     console.log('in init init');
+    console.log('All env vars:', import.meta.env);
+    this.getData();
 
     // let btn2 = document.querySelector('#scrollButton');
     // if (btn2) {

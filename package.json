@@ -5,7 +5,9 @@
    "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
+    "dev": "vite --mode home",
+    "build:home": "vite build --mode home",
+    "build:prod": "vite build --mode production",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
