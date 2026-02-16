@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite --mode home",
+    "dev-work": "vite --mode laptop",
     "build:home": "vite build --mode home",
     "build:prod": "vite build --mode production",
     "build": "tsc && vite build",
