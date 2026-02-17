@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- TEMP COMMENT -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,8 +31,8 @@
     <section class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-text" style="font-size: larger;">
-                Comprehensive analytics and reporting tools designed to support PG&E's
-                operational excellence and data-driven decision making across all business units.
+            Comprehensive analytics and reporting tools designed to support PG&E's
+            operational excellence and data-driven decision making across all business units.
         </div>
     </section>
 
@@ -41,7 +42,8 @@
             <div class="section-header">
                 <h2 class="section-title">ISA Supported Groups</h2>
                 <p class="section-subtitle">
-                    Use the links below to explore different areas of ISA. Users may be denied access to certain sections
+                    Use the links below to explore different areas of ISA. Users may be denied access to certain
+                    sections
                     depending upon current permissions.
                 </p>
             </div>
@@ -58,40 +60,94 @@
                                 </path>
                             </svg>
                         </div>
+                        <span class="badge">4 links</span>
+                        <h3 class="card-title">Request Contract</h3>
+                    </div>
+                    <p class="card-description">
+                        Create a new Contract Request or Change Order. Check status of existing requests.
+                    </p>
+                    <div class="card-links">
+                        <div class="quick-access-label">QUICK ACCESS</div>
+                        <a data-route="#/mailbox" class="link-item" class="link-item">
+                            <span>Contract Request Home</span>
+                            <svg class="external-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                </path>
+                            </svg>
+                        </a>
+                        <a data-route="#/mailbox/select-dept?isChangeOrderRequest=false" class="link-item">
+                            <span>Request Contract</span>
+                            <svg class="external-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                </path>
+                            </svg>
+                        </a>
+                        <a data-route="#/mailbox/select-dept?isChangeOrderRequest=true" class="link-item">
+                            <span>Request Change Order</span>
+                            <svg class="external-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                </path>
+                            </svg>
+                        </a>
+                        <a data-route="#/mailbox/request-list" class="link-item">
+                            <span>Check Status of Current Requests</span>
+                            <svg class="external-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 1: Customer Analytics -->
+                <article class="card" style="animation-delay: 0s">
+                    <div class="card-header">
+                        <div class="icon-wrapper">
+                            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z">
+                                </path>
+                            </svg>
+                        </div>
                         <span class="badge">5 links</span>
                         <h3 class="card-title">Contract Planning</h3>
                     </div>
                     <p class="card-description">
-                        Comprehensive customer data analysis, usage patterns, and satisfaction metrics
+                        Manage Contrats that are in the planning phase
                     </p>
                     <div class="card-links">
                         <div class="quick-access-label">QUICK ACCESS</div>
-                        <a href="#" class="link-item">
-                            <span>Customer Usage Dashboard</span>
+                        <a data-route="#/planning-home" class="link-item">
+                            <span>Planning Home</span>
                             <svg class="external-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
                                 </path>
                             </svg>
                         </a>
-                        <a href="#" class="link-item">
-                            <span>Billing Analytics</span>
+                         <a data-route="#/search-contracts/planning" class="link-item">
+                            <span>Search Contracts</span>
                             <svg class="external-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
                                 </path>
                             </svg>
                         </a>
-                        <a href="#" class="link-item">
-                            <span>Service Territory Maps</span>
+                        <a data-route="#/vendor-list/planning" class="link-item">
+                            <span>Vendors</span>
                             <svg class="external-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
                                 </path>
                             </svg>
                         </a>
-                        <a href="#" class="link-item">
-                            <span>Customer Satisfaction Reports</span>
+                        
+                         <a data-route="#/planning-list/all" class="link-item">
+                            <span>Planning Phase Report</span>
                             <svg class="external-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
@@ -122,7 +178,8 @@
                         <h3 class="card-title">Contract Development</h3>
                     </div>
                     <p class="card-description">
-                        Contracts that are in active development. A subset of complete and cancelled contracts can also be accessed.
+                        Contracts that are in active development. A subset of complete and cancelled contracts can also
+                        be accessed.
                     </p>
                     <div class="card-links">
                         <div class="quick-access-label">QUICK ACCESS</div>
@@ -469,16 +526,16 @@
         </div>
     </footer>
 
-   <script type="module">
-    import { Index } from '/index.ts';
-    const index = new Index();
+    <script type="module">
+        import { Index } from '/index.ts';
+        const index = new Index();
 
-    // init does it's thing. wires up everything, creates grid etc.
-    index.init();
-    document.addEventListener('DOMContentLoaded', () => {
-      console.log('page loaded');
-    });
-  </script>
+        // init does it's thing. wires up everything, creates grid etc.
+        index.init();
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('page loaded');
+        });
+    </script>
 </body>
 
 </html>
