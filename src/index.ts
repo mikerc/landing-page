@@ -26,6 +26,15 @@ async getData() {
 
   public init() {
 
+    // const atag = document.querySelector("#devHome") as HTMLAnchorElement;
+    //atag.href =`${import.meta.env.VITE_WFE_URL}#/development-home`;  
+
+    //(document.querySelector("#devHome") as HTMLAnchorElement).href =`${import.meta.env.VITE_WFE_URL}#/development-home`; 
+
+document.querySelectorAll<HTMLAnchorElement>('[data-route]').forEach(link => {
+  link.href = `${import.meta.env.VITE_WFE_URL}${link.dataset.route}`;
+});
+
     console.log('in init init');
     console.log('All env vars:', import.meta.env);
     this.getData();

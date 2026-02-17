@@ -1,0 +1,62 @@
+:root {
+    /* Background colors */
+    --bg-gradient-from: #f1f5f9;
+    --bg-gradient-to: #dbeafe;
+    
+    /* Header colors */
+    --header-gradient-from: #1e3a8a;
+    --header-gradient-mid: #1e40af;
+    --header-title-color: white;
+    --header-subtitle-color: #93c5fd;
+    --header-description-color: #bfdbfe;
+    
+    /* Hero colors */
+    --hero-brightness: 1;
+    --hero-gradient-to: white;
+    --hero-text-bg: rgba(255, 255, 255, 0.7);
+    --hero-title-color: #0f172a;
+    --hero-subtitle-color: #475569;
+    
+    /* Text colors */
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    
+    /* Accent colors */
+    --accent-orange: #f97316;
+    --accent-blue: #1e3a8a;
+    --accent-blue-light: #3b82f6;
+    
+    /* Component backgrounds */
+    --logo-bg: white;
+    --card-bg: white;
+    --card-bg-hover: white;
+    --link-item-bg: #f8fafc;
+    --link-item-bg-hover: #dbeafe;
+    --link-item-color: #1e293b;
+    --link-item-color-hover: #1e3a8a;
+    
+    /* Footer colors */
+    --footer-bg: #0f172a;
+    --footer-text-color: white;
+    --footer-logo-bg: white;
+    --footer-logo-color: #1e3a8a;
+    --footer-copyright-color: #94a3b8;
+    --footer-link-color: white;
+    
+    /* Logo text */
+    --logo-text-primary: #1e3a8a;
+    --logo-text-secondary: #f97316;
+    
+    /* Icon gradient */
+    --icon-gradient-from: #1e3a8a;
+    --icon-gradient-to: #3b82f6;
+    
+    /* Shadows */
+    --shadow-sm: rgba(0, 0, 0, 0.1);
+    --shadow-md: rgba(0, 0, 0, 0.3);
+    --shadow-hover: rgba(0, 0, 0, 0.15);
+    
+    /* Borders */
+    --border-color: #e2e8f0;
+}

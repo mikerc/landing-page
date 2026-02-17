@@ -1,0 +1,62 @@
+:root {
+    /* Background colors */
+    --bg-gradient-from: #0f172a;
+    --bg-gradient-to: #1e293b;
+    
+    /* Header colors */
+    --header-gradient-from: #0f172a;
+    --header-gradient-mid: #1e293b;
+    --header-title-color: white;
+    --header-subtitle-color: #60a5fa;
+    --header-description-color: #cbd5e1;
+    
+    /* Hero colors */
+    --hero-brightness: 0.4;
+    --hero-gradient-to: #0f172a;
+    --hero-text-bg: rgba(15, 23, 42, 0.85);
+    --hero-title-color: #f1f5f9;
+    --hero-subtitle-color: #94a3b8;
+    
+    /* Text colors */
+    --text-primary: #e2e8f0;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+    
+    /* Accent colors */
+    --accent-orange: #f97316;
+    --accent-blue: #3b82f6;
+    --accent-blue-light: #60a5fa;
+    
+    /* Component backgrounds */
+    --logo-bg: #1e293b;
+    --card-bg: #1e293b;
+    --card-bg-hover: #334155;
+    --link-item-bg: #0f172a;
+    --link-item-bg-hover: #1e3a8a;
+    --link-item-color: #e2e8f0;
+    --link-item-color-hover: #60a5fa;
+    
+    /* Footer colors */
+    --footer-bg: #020617;
+    --footer-text-color: white;
+    --footer-logo-bg: #1e293b;
+    --footer-logo-color: #3b82f6;
+    --footer-copyright-color: #64748b;
+    --footer-link-color: #cbd5e1;
+    
+    /* Logo text */
+    --logo-text-primary: #3b82f6;
+    --logo-text-secondary: #f97316;
+    
+    /* Icon gradient */
+    --icon-gradient-from: #3b82f6;
+    --icon-gradient-to: #60a5fa;
+    
+    /* Shadows */
+    --shadow-sm: rgba(0, 0, 0, 0.3);
+    --shadow-md: rgba(0, 0, 0, 0.5);
+    --shadow-hover: rgba(0, 0, 0, 0.5);
+    
+    /* Borders */
+    --border-color: #334155;
+}
